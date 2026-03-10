@@ -41,10 +41,10 @@ class javawork{
             }
         if(ismagic)
             {
-            System.out.println("this is magic matrix");
+            System.out.println("This is magic square matrix");
         }
         else{
-            System.out.println("this is not magic square");
+            System.out.println("This is not magic square");
         }
         
         }
