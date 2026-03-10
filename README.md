@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class javawork{
+
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the dimension of matrix:");
@@ -8,7 +9,8 @@ class javawork{
         System.out.println("Enter elements:");
         for (int i= 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                matrix[i][j]=sc.nextInt();   
+             
+matrix[i][j]=sc.nextInt();   
             }
         }       
         int sum=0;
